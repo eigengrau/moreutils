@@ -52,6 +52,7 @@ Licensed under the GNU GPL.
 use warnings;
 use strict;
 use POSIX q{strftime};
+use open ':locale';
 no warnings 'utf8';
 
 $|=1;
